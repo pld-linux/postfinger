@@ -1,6 +1,5 @@
-# TODO pl summary, eng,pl description
-Summary:	Captures Postfix configuration for reporting errors
-Summary(pl):	-
+Summary:	Capture Postfix configuration for reporting errors
+Summary(pl):	Zbieranie konfiguracji Postfiksa do zg³aszania b³êdów
 Name:		postfinger
 Version:	1.30
 Release:	0.1
@@ -15,18 +14,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+This script captures Postfix configuration for reporting errors.
 
 %description -l pl
+Ten skrypt zbiera konfiguracjê Postfiksa do zg³aszania b³êdów.
 
-%setup -q
-
-%build
-cp ../SOURCES/%{name}-%{version} %{name}
+%prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sbindir}
-install postfinger $RPM_BUILD_ROOT%{_sbindir}
+install %{SOURCE0} $RPM_BUILD_ROOT%{_sbindir}/postfinger
 
 %clean
 rm -rf $RPM_BUILD_ROOT

@@ -1,5 +1,5 @@
 Summary:	Capture Postfix configuration for reporting errors
-Summary(pl):	Zbieranie konfiguracji Postfiksa do zg³aszania b³êdów
+Summary(pl.UTF-8):   Zbieranie konfiguracji Postfiksa do zgÅ‚aszania bÅ‚Ä™dÃ³w
 Name:		postfinger
 Version:	1.30
 Release:	0.1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This script captures Postfix configuration for reporting errors.
 
-%description -l pl
-Ten skrypt zbiera konfiguracjê Postfiksa do zg³aszania b³êdów.
+%description -l pl.UTF-8
+Ten skrypt zbiera konfiguracjÄ™ Postfiksa do zgÅ‚aszania bÅ‚Ä™dÃ³w.
 
 %prep
 

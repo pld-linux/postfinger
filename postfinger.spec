@@ -1,5 +1,5 @@
 Summary:	Capture Postfix configuration for reporting errors
-Summary(pl.UTF-8):   Zbieranie konfiguracji Postfiksa do zgłaszania błędów
+Summary(pl.UTF-8):	Zbieranie konfiguracji Postfiksa do zgłaszania błędów
 Name:		postfinger
 Version:	1.30
 Release:	0.1
